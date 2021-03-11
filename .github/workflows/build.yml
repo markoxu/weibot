@@ -1,6 +1,6 @@
 # This is a basic workflow for weibot.
 
-name: CI
+name: build
 
 on:
   push:
