@@ -1,0 +1,9 @@
+venv/
+build/
+dist/
+weibot.egg-info/
+*.pyc
+*.swp
+*.egg
+weibot.jpg
+weibot.json
