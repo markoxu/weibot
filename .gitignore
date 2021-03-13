@@ -2,8 +2,10 @@ venv/
 build/
 dist/
 weibot.egg-info/
+.idea/
 *.pyc
 *.swp
 *.egg
 weibot.jpg
 weibot.json
+debug.log
