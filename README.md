@@ -14,14 +14,14 @@ Weibot，即Weibo Robot，是一个简单、实用的微博个人号接口。
 
 通过三行代码即可实现微博的扫码登录、发送删除、评论点赞、转发收藏、关注取关、收发私信等功能。
 
-百闻不如一见，一起来看看这些有趣的微博号​吧:point_down: 
+百闻不如一见，一起来看看这些有趣的微博​吧:point_down: 
 
-- [唐僧](https://weibo.com/u/5681837359?is_all=1) - 一个每天零点和十二点敲钟的微博号
-- [古城钟楼](https://weibo.com/supertimer?is_all=1) - 一个每天十二时辰敲钟的微博号
-- [今天是你生日祝你](https://weibo.com/u/5097169867?is_all=1) - 一个每天零点发送祝福的微博号
-- [小冰](https://weibo.com/xiaoiceaf?is_all=1) - 一个自动回复评论和私信的微博号
+- [唐僧](https://weibo.com/u/5681837359?is_all=1) - 每天零点和十二点敲钟的微博号
+- [古城钟楼](https://weibo.com/supertimer?is_all=1) - 每天十二时辰敲钟的微博号
+- [今天是你生日祝你](https://weibo.com/u/5097169867?is_all=1) - 每天发祝福的微博号
+- [小冰](https://weibo.com/xiaoiceaf?is_all=1) - 自动回复评论和私信的微博号
 
-心动不如行动，赶快来打造属于你自己的bot吧！:dart:
+心动不如行动，赶快来打造属于你的bot吧！:dart:
 
 ## :wrench: 安装依赖
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple --trust
 
 ### 1. 微博登录
 
-扫码登录支持扫描二维码的本地图片、在线图片和命令行图片进行登录，成功登录后将会缓存账户信息从而避免重复扫码。
+扫码登录支持扫描二维码的本地图片、在线图片和命令行图片进行登录，登录后将会缓存账户信息从而避免重复扫码。
 
 ```python
 import weibot
@@ -66,9 +66,7 @@ weibot.login()
 weibot.send_one_weibo('Hello Weibot!')
 ```
 
-命令行图片支持在终端显示二维码，可能需要调整终端字体大小、字符宽度、背景颜色等，默认情况下`enable_cmd_qr=True`。
-
-针对操作系统字符宽度问题，可尝试设置`enable_cmd_qr=2`。针对终端背景颜色问题，可以尝试设置`enable_cmd_qr=-1`。
+命令行图片支持在终端显示二维码，可能需要调整终端字体大小、字符宽度、背景颜色等，默认情况下`enable_cmd_qr=True`。针对操作系统字符宽度问题，可尝试设置`enable_cmd_qr=2`。针对终端背景颜色问题，可以尝试设置`enable_cmd_qr=-1`。
 
 ```python
 import weibot
@@ -127,7 +125,7 @@ weibot.send_weibo_comment('7425753427', 'JEze1CRH5', 'Hello Weibot![打call]')
 weibot.delete_weibo_comment('7425753427', 'JEze1CRH5', 'write your comment id')
 ```
 
-点赞微博，支持点赞微博、点赞评论、取消点赞，
+点赞微博，支持点赞微博、点赞评论、取消点赞，需要注意点赞两次即为取消点赞。
 
 ```python
 # give like for weibo.
