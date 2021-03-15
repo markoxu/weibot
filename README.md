@@ -2,12 +2,11 @@
 
 [简体中文](https://github.com/MarkoXyz/weibot/blob/main/README.md) | [ENGLISH](https://github.com/MarkoXyz/weibot/blob/main/README_EN.md)
 
-![logo](https://github.com/MarkoXyz/weibot/blob/main/ext/logo.png)
-
-![build](https://img.shields.io/github/workflow/status/MarkoXyz/weibot/build)
+[![logo](https://raw.githubusercontent.com/MarkoXyz/weibot/main/ext/logo.png)]()
+[![build](https://img.shields.io/github/workflow/status/MarkoXyz/weibot/build)]()
 [![language](https://img.shields.io/badge/python-3.5+-blue)]()
-![docs](https://img.shields.io/readthedocs/weibot)
-![os](https://img.shields.io/badge/os-linux,win,mac-green.svg)
+[![docs](https://img.shields.io/readthedocs/weibot)]()
+[![os](https://img.shields.io/badge/os-linux,win,mac-green.svg)]()
 [![license](https://img.shields.io/badge/license-Apache2.0-orange.svg)]()
 
 Weibot，即Weibo Robot，是一个简单、实用的微博个人号接口。
@@ -153,7 +152,7 @@ weibot.cancel_comment_like('7425753427', 'JEze1CRH5', '4614376169145609')
 ## :bulb:参考项目
 
 - [weiboSpider](https://github.com/dataabc/weiboSpider) - 全量爬取微博用户数据
-- [WeiboSuperSpider](https://github.com/Python3Spiders/WeiboSuperSpider) - 一网打尽微博用户、话题、评论数据
+- [WeiboSuperSpider](https://github.com/Python3Spiders/WeiboSuperSpider) - 一网打尽微博数据
 - [Ithcat](https://github.com/littlecodersh/ItChat) -  三十行代码实现微信个人号机器人
 
 ## :hearts: 参与贡献
