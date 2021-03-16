@@ -1,11 +1,13 @@
 venv/
 build/
 dist/
+site/
 weibot.egg-info/
 .idea/
 *.pyc
 *.swp
 *.egg
+mkdocs.yml
 weibot.jpg
 weibot.json
 debug.log
