@@ -152,8 +152,7 @@ weibot.cancel_comment_like('7425753427', 'JEze1CRH5', '4614376169145609')
 
 ## :bulb:参考项目
 
-- [weiboSpider](https://github.com/dataabc/weiboSpider) - 全量爬取微博用户数据
-- [WeiboSuperSpider](https://github.com/Python3Spiders/WeiboSuperSpider) - 一网打尽微博数据
+- [Wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers
 - [Ithcat](https://github.com/littlecodersh/ItChat) -  三十行代码实现微信个人号机器人
 
 ## :hearts: 参与贡献
